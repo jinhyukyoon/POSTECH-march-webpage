@@ -5,6 +5,10 @@
 @import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
 @import url("http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700");
 
+element {
+  --march-color: rgb(235, 26, 47);
+}
+
 p {
   font-size: 15px;
 }
@@ -62,6 +66,10 @@ p {
 .navbar-light .navbar-nav .nav-link:hover {
   color: rgb(235, 26, 47);
   font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgb(235, 26, 47);
 }
 
 .nav-item {
@@ -203,42 +211,53 @@ p {
 }
 
 /*menu style*/
-h1 {
-  font-weight: 700;
+.container.top {
+  padding-top: 150px;
 }
 
-h2 {
-  font-size: 27px;
-  font-weight: 700;
-  padding-bottom: 20px;
+
+
+.row.title h1 {
+  text-align: center;
+  font-size: 50px;
+  letter-spacing: 2px;
+  color: rgb(235, 26, 47);
+  padding-bottom: 50px;
+  text-transform: uppercase;
 }
 
-@media (max-width: 767px) {
-  h2 {
-    padding-top: 30px;
-  }
+.publication.menu {
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1020;
+  background-color: white;
+  padding-bottom: 30px;
+  margin-top: -50px;
+  padding-left: 18px;
+  padding-right: 23px;
 }
 
-.faculty>h2 {
-  max-width: auto;
-  display: inline-block;
+.publication.menu a {
+  font-size: 18px;
 }
 
-h3 {
-  font-weight: 700;
-  font-size: 20px;
+.publication .first {
+  padding-top: 0px;
+}
+
+.publication h2 {
+  font-size: 30px;
+  padding-top: 50px;
   padding-bottom: 10px;
-}
-
-.faculty>h3 {
-  padding-left: 15px;
-  display: inline-block;
+  margin-bottom: 20px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
 }
 
 .publication>h3 {
-  border-bottom-style: solid;
-  border-bottom-width: 1.5px;
-  border-bottom-color: #66665c;
+  color: rgb(235, 26, 47);
   margin-top: 10px;
   margin-right: -9%;
   padding-bottom: 10px;
@@ -293,72 +312,31 @@ h3 {
   padding-bottom: 50px;
 }
 
-.menu {
-  text-align: left;
-  line-height: 40px;
+
+.members h2 {
+  font-size: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+}
+
+.members h3 {
+  font-size: 30px;
   padding-bottom: 20px;
-  background-color: #f8f9fa;
-  max-width: 250px;
-  margin-right: 75px;
 }
 
-@media (max-width: 1317px) {
-  .menu {
-    max-width: none;
-    margin-right: 0px;
-  }
-}
-
-.menu.about {
-  max-height: 100px;
-}
-
-.menu.people {
-  max-width: 250px;
-  max-height: 140px;
-}
-
-.menu.research {
-  max-width: 300px;
-  max-height: 180px;
-}
-
-.menu.publication {
-  max-width: 300px;
-  max-height: 210px;
-}
-
-@media (max-width: 989px) {
-  .menu.people {
-    max-height: 180px;
-  }
-}
-
-.menu a {
-  color: #66665c;
-  font-size: 20px;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.menu a:hover {
-  color: black;
-}
-
-.menu>.active {
-  color: black;
+.members h4 {
+  font-size: 25px;
+  padding-bottom: 10px;
 }
 
 .img-people {
   border: none;
-  width: 150px;
+  width: 200px;
   height: auto;
-}
-
-.img-partner {
-  width: 400px;
-  height: auto;
-  margin-bottom: 20px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 .img-fluid {
@@ -372,16 +350,25 @@ h3 {
 }
 
 .contents a {
-  color: black;
+  color: rgb(235, 26, 47);
   text-decoration: none;
 }
 
 .contents a:hover {
-  color: #66665c;
+  text-decoration: underline;
+}
+
+.publication.contents a{
+  color: black;
+}
+
+.publication.contents a:hover {
+  color: rgb(235, 26, 47);
+  text-decoration: none;
 }
 
 .contents p {
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 5px;
 }
 
@@ -410,7 +397,7 @@ h3 {
 }
 
 .description {
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .about>.description {
@@ -423,6 +410,10 @@ h3 {
 
 .career h2 {
   font-size: 32px;
+  border-bottom-style: solid;
+  border-bottom-color: gray;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .career h3 {
