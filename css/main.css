@@ -343,7 +343,17 @@ p {
 }
 
 .publication strong {
+  font-size: 18px;
+}
+
+.publication p {
+  margin-bottom: 5px;
   font-size: 17px;
+}
+
+.padding {
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .medias h2 {
