@@ -88,17 +88,13 @@ p {
     margin-left: -1px !important;
   }
 
+
   .nav-item {
     padding-left: 15px;
-    margin-left: -15px;
+    margin-left: -10px;
     margin-right: -20px;
-    background-color: white;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-bottom-color: lightgray;
-    padding-top: 10px;
-    padding-bottom: 10px;
   }
+  /*
 
   .nav-item.top {
     border-top-color: gray;
@@ -111,6 +107,7 @@ p {
     border-bottom-style: solid;
     border-bottom-width: 2px;
   }
+  */
 }
 
 .top-bg {
@@ -288,6 +285,15 @@ p {
   padding-bottom: 5%;
 }
 
+@media (max-width: 993px) {
+  .research.navigation{
+    display: none;
+  }
+  .container.research {
+    padding-top: 0px;
+  }
+}
+
 .publication.navigation {
   max-width: 1100px;
   display: flex;
@@ -330,11 +336,20 @@ p {
     margin-right: -15%;
     padding-right: 10px;
   }
+  .container.top.publication {
+    padding-top: 100px;
+  }
 }
 
 @media (max-width: 767px) {
   .publication>h3 {
     margin-right: 0.5%;
+  }
+}
+
+@media (max-width: 993px) {
+  .publication.navigation .menu-item {
+    display: none;
   }
 }
 
@@ -364,7 +379,7 @@ p {
 }
 
 .medias .row {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .medias a {
@@ -430,6 +445,13 @@ p {
 
 .img-fluid {
   padding-bottom: 30px;
+}
+
+
+@media (max-width: 993px) {
+  .img-people {
+    padding-bottom: 50px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -505,7 +527,7 @@ p {
 
 @media (max-width: 515px) {
   .page-footer>.container {
-    height: 200px;
+    height: 250px;
   }
 }
 
