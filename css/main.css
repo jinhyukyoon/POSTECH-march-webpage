@@ -429,7 +429,6 @@ p {
 .members h4 {
   font-size: 25px;
   padding-bottom: 10px;
-  color: gray;
 }
 
 .members .row.contents {
@@ -438,6 +437,10 @@ p {
 
 .members .row.alumni {
   padding-bottom: 50px;
+}
+
+.members .alumni a {
+    color: rgb(235, 26, 47);
 }
 
 .img-people {
@@ -466,7 +469,7 @@ p {
 }
 
 .contents a {
-  color: rgb(255, 110, 47);
+  color: rgb(235, 26, 47);
   text-decoration: none;
 }
 
