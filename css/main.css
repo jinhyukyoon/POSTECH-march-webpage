@@ -9,6 +9,16 @@ p {
   font-size: 15px;
 }
 
+@media only screen and (max-width: 768px) {
+  #mainNav {
+    max-height: fit-content;
+  }
+  .navbar-collapse.in {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+}
+
 .container {
   max-width: 1100px;
   margin-right: auto;
@@ -36,22 +46,8 @@ p {
   height: 100px;
 }
 
-.navbar-brand {
-  text-transform: uppercase;
-  font-weight: 700;
-  line-height: 24px;
-}
-
-.navbar-brand>.title {
-  font-size: 30px;
-  color: black;
-  text-decoration: none;
-}
-
-.navbar-brand>.department {
-  font-size: 15px;
-  color: #66665c;
-  text-decoration: none;
+.navbar-brand img{
+  max-height: 60px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -94,20 +90,6 @@ p {
     margin-left: -10px;
     margin-right: -20px;
   }
-  /*
-
-  .nav-item.top {
-    border-top-color: gray;
-    border-top-style: solid;
-    border-top-width: 2px;
-  }
-
-  .nav-item.bottom {
-    border-bottom-color: gray;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-  }
-  */
 }
 
 .top-bg {
@@ -182,9 +164,10 @@ p {
   }
 }
 
-@media (max-width: 577px) {
+@media (max-width: 576px) {
   .main-image-caption h1 {
-    padding-top: 25%;
+    padding-top: 40%;
+    font-size: 70px;
   }
 }
 
