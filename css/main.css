@@ -5,10 +5,6 @@
 @import url('https://fonts.googleapis.com/earlyaccess/nanumgothic.css');
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700");
 
-p {
-  font-size: 15px;
-}
-
 @media only screen and (max-width: 768px) {
   #mainNav {
     max-height: fit-content;
@@ -18,6 +14,20 @@ p {
     overflow-x: hidden;
   }
 }
+
+p {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 500;
+}
+
 
 .container {
   max-width: 1100px;
@@ -48,12 +58,11 @@ p {
 
 .navbar-light .navbar-nav .nav-link {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: rgb(235, 26, 47);
-  font-weight: 500;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
@@ -222,7 +231,7 @@ p {
 
 .research .navigation {
   text-align: center;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 18px;
   padding-bottom: 5px;
 }
@@ -386,12 +395,17 @@ p {
 }
 
 .medias .title {
-  font-size: 20px;
+  font-size: 18px;
   color: black;
+  font-weight: 400;
+}
+
+.medias .title strong{
+  font-weight: 500;
 }
 
 .medias .contents {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .medias .source {
