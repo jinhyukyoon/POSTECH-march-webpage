@@ -310,8 +310,23 @@ strong {
   padding-right: 23px;
 }
 
-.publication.navigation a {
+.publication.navigation.contents a {
   font-size: 18px;
+  color: gray;
+}
+
+.publication.navigation.contents a:hover {
+  color: black;
+}
+
+
+.publication.contents a {
+  color: black;
+}
+
+.publication.contents a:hover {
+  color:  rgb(25, 92, 142);
+  text-decoration: none;
 }
 
 .publication .first {
@@ -483,15 +498,6 @@ strong {
 
 .contents a:hover {
   text-decoration: underline;
-}
-
-.publication.contents a {
-  color: black;
-}
-
-.publication.contents a:hover {
-  color: rgb(235, 26, 47);
-  text-decoration: none;
 }
 
 .career strong {
