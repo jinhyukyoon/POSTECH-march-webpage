@@ -49,6 +49,7 @@ strong {
   padding-top: 15px;
   padding-bottom: 15px;
   background-color: white;
+  height: 130px;
 }
 
 .navbar-top {
@@ -128,7 +129,7 @@ strong {
 
 /*index style*/
 .main-image {
-  padding-top: 100px;
+  padding-top: 150px;
   padding-bottom: 40px;
   max-width: 100%;
   padding-left: 0;
@@ -170,7 +171,7 @@ strong {
     padding-bottom: 0px;
   }
   .container.main-image {
-    padding-top: 100px;
+    padding-top: 150px;
   }
 }
 
@@ -214,7 +215,7 @@ strong {
 
 /*menu style*/
 .container.top {
-  padding-top: 150px;
+  padding-top: 200px;
 }
 
 .row.title h1 {
@@ -227,12 +228,12 @@ strong {
 }
 
 .container.research.top {
-  padding-top: 100px;
+  padding-top: 130px;
   background-color: rgba(255,255,255,0.8);
 }
 
 .container.research {
-  padding-top: 150px;
+  padding-top: 200px;
 }
 
 .research .navigation {
@@ -305,8 +306,8 @@ strong {
   position: fixed;
   z-index: 1020;
   background-color: white;
-  padding-bottom: 30px;
-  margin-top: -50px;
+  padding-bottom: 20px;
+  margin-top: -70px;
   padding-left: 18px;
   padding-right: 23px;
 }
@@ -352,7 +353,7 @@ strong {
     padding-right: 10px;
   }
   .container.top.publication {
-    padding-top: 100px;
+    padding-top: 150px;
   }
 }
 
@@ -427,7 +428,7 @@ strong {
 }
 
 .container.top.members {
-  padding-top: 100px;
+  padding-top: 150px;
 }
 
 .members p {
