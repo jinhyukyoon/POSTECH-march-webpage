@@ -561,9 +561,16 @@ strong {
   height: 200px;
 }
 
+
+.page-footer .logo {
+  display: block;
+  float: right;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 991px) {
   .page-footer>.container {
-    height: 250px;
+    height: 300px;
   }
 
   .page-footer .logo {
@@ -572,9 +579,15 @@ strong {
   }
 }
 
-@media (max-width: 515px) {
-  .page-footer>.container {
-    height: 250px;
+@media (max-width: 400px) {
+  .page-footer .logo {
+    height: 15px;
+  }
+}
+
+@media (max-width: 300px) {
+  .page-footer .logo {
+    height: 10px;
   }
 }
 
@@ -585,6 +598,7 @@ strong {
 
 .page-footer .right {
   float: right;
+  padding-right: 15px;
 }
 
 .page-footer .icons img{
@@ -612,10 +626,4 @@ strong {
   text-align: left;
   line-height: 40px;
   padding-bottom: 20px;
-}
-
-.page-footer .logo {
-  display: block;
-  float: right;
-  margin-bottom: 20px;
 }
