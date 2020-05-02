@@ -579,8 +579,33 @@ strong {
 }
 
 .page-footer .left {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   text-align: left;
+}
+
+.page-footer .right {
+  float: right;
+}
+
+.page-footer .icons img{
+  border-radius: 2px;
+  margin-left: 15px;
+}
+
+@media (max-width: 991px) {
+  .page-footer .right {
+    float: left;
+    padding-left: 15px;
+  }
+  .page-footer .icons img{
+    margin-right: 15px;
+    margin-left: 0px;
+  }
+}
+
+
+.page-footer .clear {
+  clear: both;
 }
 
 .page-footer-navigation {
