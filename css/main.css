@@ -9,11 +9,9 @@
   #mainNav {
     max-height: fit-content;
   }
-
-  .navbar-collapse.in {
-    overflow-y: hidden;
+}
+body {
     overflow-x: hidden;
-  }
 }
 
 p {
