@@ -29,7 +29,7 @@ h1, h3, h4 {
 
 h2 {
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 strong {
@@ -444,7 +444,6 @@ strong {
 }
 
 .members h2 {
-  font-weight: 700;
   padding-top: 0px;
   padding-bottom: 20px;
 }
@@ -452,7 +451,6 @@ strong {
 .members h3 {
   font-size: 35px;
   padding-bottom: 20px;
-  font-weight: 500;
 }
 
 .members h4 {
@@ -511,13 +509,12 @@ strong {
 
 .position h2 {
   margin-top: -50px;
-  font-weight: 700;
 }
 
 .position h3 {
   padding-top: 10px;
   padding-bottom: 15px;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 30px;
 }
 
