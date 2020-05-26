@@ -29,7 +29,7 @@ h1, h3, h4 {
 
 h2 {
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 strong {
@@ -454,7 +454,7 @@ strong {
 }
 
 .members h4 {
-  font-size: 35px;
+  font-size: 30px;
   padding-bottom: 10px;
 }
 
@@ -466,8 +466,8 @@ strong {
   padding-bottom: 50px;
 }
 
-.members .alumni a {
-  color: rgb(25, 92, 142);
+.members .icon {
+  height: 15px;
 }
 
 .img-people {
@@ -482,6 +482,24 @@ strong {
   padding-bottom: 30px;
 }
 
+.members a {
+  color: black;
+  text-decoration: none;
+}
+
+.members a:hover {
+  color: rgb(25, 92, 142);
+}
+
+.members .CV {
+  font-size: 20px;
+  color: rgb(200, 200, 200);
+  font-weight: 500;
+}
+.members .CV .icon {
+  height: 20px;
+}
+
 @media (max-width: 993px) {
   .img-people {
     padding-bottom: 50px;
@@ -492,15 +510,6 @@ strong {
   .col-lg-9.text {
     padding-top: 20px;
   }
-}
-
-.contents a {
-  color: rgb(235, 26, 47);
-  text-decoration: none;
-}
-
-.contents a:hover {
-  text-decoration: underline;
 }
 
 .position p, ul {
