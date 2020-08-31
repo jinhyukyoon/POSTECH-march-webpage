@@ -10,6 +10,7 @@
     max-height: fit-content;
   }
 }
+
 html, body {
   width: 100%;
   height: 100%;
@@ -301,6 +302,7 @@ strong {
     padding-top: 0px;
   }
 }
+
 .container.publication.top {
   padding-top: 170px;
 }
@@ -496,6 +498,7 @@ strong {
   color: rgb(200, 200, 200);
   font-weight: 500;
 }
+
 .members .CV .icon {
   height: 20px;
 }
@@ -636,4 +639,36 @@ strong {
   text-align: left;
   line-height: 40px;
   padding-bottom: 20px;
+}
+
+.modal-dialog {
+  overflow-y: initial !important
+}
+
+.modal-body {
+  max-height: calc(100vh - 150px);
+  overflow-y: auto;
+}
+
+.modal-title {
+  font-weight: 500;
+}
+
+.modal-body p {
+  font-size: 20px;
+}
+
+.modal-body {
+  padding-top: 40px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.modal-body a {
+  font-weight: 500;
+}
+
+.modal-body .center {
+  text-align: center;
 }
